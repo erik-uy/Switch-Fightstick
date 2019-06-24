@@ -17,3 +17,9 @@ Turns out we can modify the descriptors to expose up to 16 buttons at **least**.
 # THE CAPTURE BUTTON
 
 The Switch Pro Controller also exposes **additional** buttons within its descriptors; however, it's unknown as to what those do at this time. These come immediately after the HAT, so I'm under the assumption that they may be individual button presses instead of an angle. That being said, considering how flexible the Switch is with the Pokken controller descriptors, we may be able to mirror the Switch Pro Controller descriptors up to a certain point.
+
+### Pre-requisites:
+
+* LUFA 140928 - http://www.github.com/abcminiuser/lufa/archive/LUFA-140928.zip
+* gcc-avr - `sudo apt-get install gcc-avr binutils-avr avr-libc`
+* set LUFA_PATH in makefile to %LUFA_Folder%/LUFA
